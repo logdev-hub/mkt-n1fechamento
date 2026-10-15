@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Depois da Formatura | MKT-N1 Senac</title>
+  <meta name="description" content="Continuidade de estudos e possibilidades de mercado para a turma MKT-N1: profissional T-Shaped, 5 trilhas com roadmap, IA, cultura maker e plano de ação.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="scrollbar" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-senac" id="topnav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">🎓 MKT-N1 <span class="brand-dot">•</span> Próximos Passos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#tshape">T-Shaped</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mercado">Mercado</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trilhas">Trilhas &amp; Roadmaps</a></li>
+          <li class="nav-item"><a class="nav-link" href="#quiz">Qual é a sua?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#futuro">IA &amp; Dados</a></li>
+          <li class="nav-item"><a class="nav-link" href="#maker">Maker</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plano">Plano 90 dias</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio" class="hero">
+    <div class="floaties" aria-hidden="true"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 reveal">
+          <span class="badge-pill">🚀 Turma MKT-N1 · Técnico em Marketing</span>
+          <h1 class="display-3 fw-extrabold mt-3">A formatura é a <span class="hl">barra horizontal</span> do seu&nbsp;T.</h1>
+          <p class="lead mt-3 mb-4">
+            Você já tem a base: processos, funil e jornada. Agora vem a <strong>haste vertical</strong>,
+            a especialização que faz você ser lembrado em um processo seletivo.
+          </p>
+          <p class="typed-line">Hoje o assunto é: <span id="typed" class="typed"></span><span class="cursor">|</span></p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#trilhas" class="btn btn-senac btn-lg">🧭 Explorar as trilhas</a>
+            <a href="#quiz" class="btn btn-outline-light btn-lg">🎯 Descobrir meu perfil</a>
+          </div>
+        </div>
+        <div class="col-lg-5 reveal">
+          <div class="t-hero" aria-label="Letra T: a barra horizontal representa a formação e a haste vertical a especialização">
+            <div class="t-bar"><span>🧩 Processos · Funil · Jornadas · Ferramentas</span></div>
+            <div class="t-stem"><span>🔬 Sua especialidade</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#tshape" class="scroll-hint" aria-label="Rolar para baixo">⌄</a>
+  </header>
+
+  <!-- NUMBERS -->
+  <section class="stats">
+    <div class="container">
+      <div class="row g-3 text-center">
+        <div class="col-6 col-md-3 reveal"><div class="stat"><div class="num" data-count="5">0</div><div>🧭 trilhas de especialização</div></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><div class="num" data-count="4">0</div><div>🗺️ fases por roadmap</div></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><div class="num" data-count="90">0</div><div>📅 dias para o primeiro plano</div></div></div>
+        <div class="col-6 col-md-3 reveal"><div class="stat"><div class="num" data-count="3">0</div><div>🛠️ projetos para o portfólio</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- T-SHAPED -->
+  <section id="tshape" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🔤 Conceito</span>
+        <h2>O profissional <span class="hl-blue">T-Shaped</span></h2>
+        <p>Visão ampla para conversar com todas as áreas e profundidade real para resolver problemas difíceis. Passe o mouse (ou toque) em cada parte.</p>
+      </div>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6 reveal">
+          <div class="t-interactive">
+            <button class="t-part t-top" data-info="bar">
+              <span class="fs-3">➖</span> Barra horizontal<br><small>Visão generalista</small>
+            </button>
+            <button class="t-part t-down" data-info="stem">
+              <span class="fs-3">⬇️</span> Haste vertical<br><small>Especialidade</small>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <div class="info-card" id="tInfo" aria-live="polite">
+            <h3>➖ Barra horizontal</h3>
+            <p>É o que você construiu no curso: entender como <strong>processos, funil e jornadas</strong> se conectam. Sem ela, você executa tarefas sem saber por quê.</p>
+            <ul class="list-unstyled mb-0">
+              <li>✅ Fala a língua de todas as áreas</li>
+              <li>✅ Enxerga o impacto das decisões no funil</li>
+              <li>✅ Colabora sem virar gargalo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3 mt-2">
+        <div class="col-md-6 reveal"><div class="mini-card warn">❌ <strong>Só generalista:</strong> fácil de substituir, porque ninguém sabe o que você faz melhor que os outros.</div></div>
+        <div class="col-md-6 reveal"><div class="mini-card warn">❌ <strong>Só especialista:</strong> entrega bem, mas tem dificuldade de integrar o trabalho ao restante do time.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MERCADO -->
+  <section id="mercado" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🌎 Realidade</span>
+        <h2>O mercado como ele é</h2>
+        <p>Sem clichê: o que está mudando, o que continua valendo e onde o físico e o digital se encontram.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal"><div class="feature h-100"><div class="ico">🤖</div><h3>O que mudou</h3><p>A IA já faz sozinha parte da porta de entrada: legenda, resumo, primeira versão de texto, relatório básico. O mercado paga menos por <em>executar</em> e mais por <em>decidir bem</em>.</p></div></div>
+        <div class="col-md-4 reveal"><div class="feature h-100"><div class="ico">🧠</div><h3>O que continua igual</h3><p>Entender gente, construir posicionamento, vender e medir. Quem entende o <em>porquê</em> da estratégia continua em alta.</p></div></div>
+        <div class="col-md-4 reveal"><div class="feature h-100"><div class="ico">🏬📱</div><h3>O que está se fundindo</h3><p><strong>Phygital:</strong> o cliente pesquisa no celular dentro da loja, retira online e troca no balcão. Para ele é uma experiência só.</p></div></div>
+      </div>
+      <div class="callout reveal">
+        💬 <strong>Verdade desconfortável:</strong> vaga de entrada é concorrida e só o diploma não diferencia ninguém. Por isso o resto desta página existe.
+      </div>
+    </div>
+  </section>
+
+  <!-- TRILHAS -->
+  <section id="trilhas" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🧭 As 5 trilhas</span>
+        <h2>Escolha uma haste. <span class="hl-blue">Veja o roadmap.</span></h2>
+        <p>Nenhuma trilha é melhor que a outra: a melhor é a que combina com o seu jeito de pensar. Marque os passos que você já cumpriu e acompanhe o progresso (fica salvo no seu navegador).</p>
+      </div>
+
+      <ul class="nav nav-pills track-tabs reveal" id="trackTabs" role="tablist"></ul>
+
+      <div id="trackPanel" class="track-panel"></div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🎯 Autoconhecimento</span>
+        <h2>Qual trilha combina com você?</h2>
+        <p>Seis perguntas rápidas. Não é teste de verdade, é um ponto de partida para conversar.</p>
+      </div>
+      <div class="quiz-box reveal" id="quizBox"></div>
+    </div>
+  </section>
+
+  <!-- FUTURO -->
+  <section id="futuro" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">⚡ Diferencial</span>
+        <h2>Competências do futuro</h2>
+        <p>Quase todo mundo usa IA para escrever legenda. Quem se destaca usa para <strong>organizar o trabalho</strong> e tem critério para conferir o que ela entrega.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-5 reveal">
+          <div class="feature h-100">
+            <div class="ico">📊</div>
+            <h3>Letramento de dados</h3>
+            <ul class="list-unstyled">
+              <li>🔎 Saber ler um número e desconfiar dele</li>
+              <li>⚖️ Diferenciar correlação de causa</li>
+              <li>🧪 Entender amostra e significância</li>
+              <li>✅ Conferir fonte antes de apresentar</li>
+            </ul>
+            <div class="callout small mb-0">A IA erra com muita confiança. O critério continua sendo seu.</div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <div class="feature h-100">
+            <div class="ico">🤖</div>
+            <h3>Agilidade com IA <small class="text-muted">(Copilot, Claude, ChatGPT)</small></h3>
+            <p class="mb-2">Clique para copiar um prompt-modelo e testar hoje:</p>
+            <div class="accordion" id="promptAcc"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAKER -->
+  <section id="maker" class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🛠️ Cultura maker</span>
+        <h2>Seu portfólio é o que você já fez</h2>
+        <p>Recrutador não consegue avaliar o que você <em>sabe</em>, mas consegue avaliar o que você <em>fez</em>. Vire os cartões para ver ideias de projeto.</p>
+      </div>
+      <div class="row g-4" id="makerGrid"></div>
+      <div class="row g-3 mt-3 reveal">
+        <div class="col-md-4"><div class="mini-card">1️⃣ <strong>Problema:</strong> o que você queria resolver?</div></div>
+        <div class="col-md-4"><div class="mini-card">2️⃣ <strong>Decisão:</strong> o que você fez e por quê?</div></div>
+        <div class="col-md-4"><div class="mini-card">3️⃣ <strong>Resultado e aprendizado:</strong> o que aconteceu (inclusive os erros)?</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANO -->
+  <section id="plano" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">✅ Plano de ação</span>
+        <h2>Os próximos 90 dias</h2>
+        <p>Cursos livres, certificações, graduação e networking, em etapas curtas. Marque conforme avançar.</p>
+      </div>
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-4 reveal">
+          <div class="progress-card text-center">
+            <div class="ring" id="planRing"><span id="planPct">0%</span></div>
+            <p class="mt-3 mb-1 fw-bold">Seu progresso no plano</p>
+            <small class="text-muted" id="planMsg">Comece pelo primeiro passo 👇</small>
+            <button class="btn btn-sm btn-outline-senac mt-3" id="planReset">🔄 Reiniciar</button>
+          </div>
+        </div>
+        <div class="col-lg-8 reveal">
+          <div class="accordion" id="planAcc"></div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-md-6 col-lg-3 reveal"><div class="feature h-100"><div class="ico">📚</div><h3 class="h5">Cursos livres</h3><p>Escolha uma trilha e vá fundo em um tema. Não colecione cursos.</p></div></div>
+        <div class="col-md-6 col-lg-3 reveal"><div class="feature h-100"><div class="ico">🏅</div><h3 class="h5">Certificações</h3><p>Google (Analytics, Ads) e HubSpot Academy são boas portas de entrada, e várias são gratuitas.</p></div></div>
+        <div class="col-md-6 col-lg-3 reveal"><div class="feature h-100"><div class="ico">🎓</div><h3 class="h5">Graduação</h3><p>Marketing, Publicidade, Administração ou Ciência de Dados. Soma, mas não substitui prática.</p></div></div>
+        <div class="col-md-6 col-lg-3 reveal"><div class="feature h-100"><div class="ico">🤝</div><h3 class="h5">Networking</h3><p>Converse com quem está alguns passos à frente e mostre o que está construindo.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FECHAMENTO -->
+  <section class="closing">
+    <div class="container text-center reveal">
+      <div class="big-t">T</div>
+      <h2>Você sai daqui com a barra horizontal pronta.</h2>
+      <p class="lead">A haste é de vocês. Escolham, comecem pequeno e comecem <strong>esta semana</strong>. 🚀</p>
+      <a href="#trilhas" class="btn btn-senac btn-lg">🧭 Voltar às trilhas</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>🎓 Turma MKT-N1 · Técnico em Marketing · Senac</span>
+      <span>Material de apoio à aula "Continuidade de Estudos e Possibilidades de Mercado"</span>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Voltar ao topo">⬆️</button>
+  <div id="toast" class="toast-lite" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
